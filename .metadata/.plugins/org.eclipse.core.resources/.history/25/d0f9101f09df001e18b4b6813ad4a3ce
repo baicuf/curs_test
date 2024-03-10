@@ -28,10 +28,10 @@ public class Room {
 	}
 	
 	//constructor
-	public Room(int lungime, int latime) {
-		this.lungime = lungime;
-		this.latime = latime;
-	}
+//	public Room(int lungime, int latime) {
+//		this.lungime = lungime;
+//		this.latime = latime;
+//	}
 
 	public Room(int lungime, int latime, String culoare) {
 		this.lungime = lungime;
