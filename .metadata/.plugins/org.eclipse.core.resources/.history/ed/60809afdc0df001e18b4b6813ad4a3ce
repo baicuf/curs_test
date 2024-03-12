@@ -1,0 +1,11 @@
+package Tema2;
+
+public class TestPunctaj {
+
+	public static void main(String[] args) {
+		PunctajTest obj = new PunctajTest();
+		obj.checkPassOrFail();
+
+	}
+
+}
