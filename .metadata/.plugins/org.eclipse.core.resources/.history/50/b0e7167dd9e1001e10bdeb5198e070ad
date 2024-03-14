@@ -1,0 +1,29 @@
+package curs4;
+
+//Operator unar: are un singur operand numar++ / numar-- 
+//Operatori binari: doi operanzi var > var2
+//Operator ternar: trei operanzi (operator conditional) ? :
+
+
+public class IncrementDecrement {
+
+	public static void main(String[] args) {
+		
+		// POST increment --> numar++
+		// PRE increment --> ++numar
+		
+		System.out.println("---- POST----");
+		int num = 10;
+		System.out.println("Valoarea lui num inainte de increment:" + num);
+		System.out.println("Valoarea lui num in POST increment:" + num++);
+		System.out.println("Valoarea lui num dupa POST increment:" + num);
+		
+		
+		System.out.println("---- PRE----");
+		int num2 = 10;
+		System.out.println("Valoarea lui num2 inainte de increment:" + num2);
+		System.out.println("Valoarea lui num2 in PRE increment:" + ++num2);
+		System.out.println("Valoarea lui num2 dupa PRE increment:" + num2);
+	}
+
+}

@@ -1,0 +1,42 @@
+package curs4;
+
+import java.util.Scanner;
+
+//Facem un program care simuleaza un basic calculator
+//Avem operatiile de baza: + - * (aditional folosim si x) / (aditional folosim si :)
+//Intrebam userul numarul1, operatorul matematic, numarul2 si printam
+//EX: 2 + 2 = 4
+
+public class SimpleCalculator {
+	
+	int nr1, nr2, rezultat;
+	char operator;
+	
+	public void askTheUser() {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter first number: ");
+		nr1 = scan.nextInt();
+		System.out.println("Please enter operator: ");
+		operator = scan.next().charAt(0);
+		System.out.println("Please enter second number: ");
+		nr2 = scan.nextInt();
+		scan.close();
+	}
+	
+	public void calculator() {
+		if(operator == '+') {
+			rezultat = nr1 + nr2;
+		} else if (operator == '-') {
+			rezultat = nr1 - nr2;
+		} else if (operator == '*' || operator == 'X') {
+			rezultat = nr1 * nr2;
+		} else if (operator == '/' || operator == ':') {
+			rezultat = nr1 / nr2;
+		} else {
+			System.out.println("Unknown operator!");
+		}
+		
+		System.out.println(nr1 + " "  + operator + " " + nr2 + " = " + rezultat);
+	}
+
+}
