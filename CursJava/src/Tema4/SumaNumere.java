@@ -1,0 +1,44 @@
+package Tema4;
+
+// Scriem un program care intreaba utilizatorul 10 numere sub urmatoarea
+// forma:
+// Please enter number 1:
+// Please enter number 2:
+// ---etc
+// Dupa ce utilizatorul a introdus cele zece numere calculam suma lor si o
+//printam sub urmatoarea forma :
+// The sum of the numbers is:
+// Note:
+// Folosim instructiunea FOR
+// Inputul userului il putem citit in for
+// Calculul sumei poate fi facuta cu un operator +=
+
+import java.util.Scanner;
+
+public class SumaNumere {
+	
+	static double number;
+	static int i = 0;	
+	
+	public static void askTheUserForANumber() {
+		
+		Scanner scan = new Scanner(System.in);	
+		System.out.println("Please enter the number " + i + ":" );
+		number = scan.nextDouble();
+		
+	}
+
+	public static void main(String[] args) {
+		
+		double sum = 0; 
+		
+		for(i=1; i <=10; i++) {
+			askTheUserForANumber();
+			sum += number;
+		}
+		
+		System.out.println("The sum of the numbers is: " + sum);
+			
+	}
+
+}

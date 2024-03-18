@@ -1,0 +1,34 @@
+package Tema4;
+
+import java.util.Scanner;
+
+public class ConversieTemperatura {
+	
+	static double number;
+	
+	public static void askTheUserForANumber() {
+		
+		Scanner scan = new Scanner(System.in);	
+		number = scan.nextDouble();
+	}
+
+	public static void main(String[] args) {
+		
+		System.out.println("Cate temperaturi doriti sa convertiti?" );
+		askTheUserForANumber();
+		double nrTemp = number;
+		String beautifyBreak = "===================================================================";
+		
+		for(int i=1; i <= nrTemp; i++) {
+			
+			System.out.println(beautifyBreak + "\nIntroduceti temperatura in grade Celsius " + i + ":" );
+			askTheUserForANumber();
+			double fTemp = number * 9/5 + 32;
+			
+			System.out.println("\nTemperatura Celsius de " + number + "grade este in Farenheit " + fTemp + "grade \n" + beautifyBreak);
+			
+		}
+
+	}
+
+}

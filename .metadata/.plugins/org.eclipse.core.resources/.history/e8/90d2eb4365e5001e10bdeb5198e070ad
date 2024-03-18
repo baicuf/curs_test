@@ -1,0 +1,25 @@
+package Tema4;
+
+import java.util.Scanner;
+
+public class TablaInmultirii {
+
+	public static void main(String[] args) {
+		
+		int number;
+		
+		Scanner scan = new Scanner(System.in);	
+		System.out.println("Please enter the number: " );
+		number = scan.nextInt();
+		
+		System.out.println("Numarul este: " + number);
+		
+		for(int i = 1; i<=10; i++) {
+			int result = number * i;
+			System.out.println(number + "*" + i + " = " + result);
+			
+		}
+
+	}
+
+}
