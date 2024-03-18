@@ -25,7 +25,7 @@ public class ConversieTemperatura {
 			askTheUserForANumber();
 			double fTemp = number * 9/5 + 32;
 			
-			System.out.println("\nTemperatura Celsius de " + number + " grade este in Farenheit " + fTemp + "grade \n" + beautifyBreak);
+			System.out.println("\nTemperatura Celsius de " + number + "grade este in Farenheit " + fTemp + "grade \n" + beautifyBreak);
 			
 		}
 
