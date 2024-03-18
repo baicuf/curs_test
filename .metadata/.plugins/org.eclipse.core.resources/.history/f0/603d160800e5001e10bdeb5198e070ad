@@ -12,7 +12,7 @@ public class LetterSearch {
 
 	public static void main(String[] args) {
 		
-//		boolean existaA = false;
+		boolean existaA = false;
 		int counter = 0;
 		
 		Scanner scan = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class LetterSearch {
 			
 			if (text.charAt(i)=='a') {
 //				System.out.println("Textul contine litera 'A'!");
-//				existaA=true;
+				existaA=true;
 				counter++;
 //				break;
 		} 
@@ -38,7 +38,7 @@ public class LetterSearch {
 			
 		}
 		
-		if (counter > 0) {
+		if (existaA) {
 			System.out.println("Textul contine litera 'A'de " + counter + "ori");
 		} else {
 			System.out.println("Textul nu contine litera 'A'!");
