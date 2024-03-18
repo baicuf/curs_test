@@ -21,7 +21,7 @@ public class ConversieTemperatura {
 		
 		for(int i=1; i <= nrTemp; i++) {
 			
-			System.out.println(beautifyBreak + "\nIntroduceti temperatura in grade Celsius #" + i + ":" );
+			System.out.println(beautifyBreak + "\nIntroduceti temperatura in grade Celsius " + i + ":" );
 			askTheUserForANumber();
 			double fTemp = number * 9/5 + 32;
 			
