@@ -1,0 +1,21 @@
+package curs6;
+
+//facem un program care printeaza numere pare de la 0 la 20 inclusiv
+
+public class WhileVsFor {
+
+	public static void main(String[] args) {
+		
+		rezolvareCuFor();
+
+	}
+	
+	public static void rezolvareCuFor() {
+		
+		for (int i =2; i <= 2; i=i+2) {
+			
+			System.out.println(i);
+		}
+	}
+
+}
