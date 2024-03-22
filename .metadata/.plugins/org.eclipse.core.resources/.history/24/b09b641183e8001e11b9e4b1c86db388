@@ -1,0 +1,21 @@
+package Tema5;
+
+import java.util.Scanner;
+
+public class SumaCifreNumar {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Introdu numarul : ");
+		int numar = scan.nextInt();
+		int[] array = numar;
+		
+		System.out.println(array);
+		
+
+
+
+	}
+
+}
