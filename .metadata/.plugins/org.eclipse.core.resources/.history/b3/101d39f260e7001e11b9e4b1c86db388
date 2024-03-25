@@ -1,0 +1,13 @@
+package curs6;
+
+public class TestCalculatorTVA {
+
+	public static void main(String[] args) {
+		
+		CalculatorTva calc1 = new CalculatorTva(5);
+		CalculatorTva calc2 = new CalculatorTva(9);
+		CalculatorTva calc3 = new CalculatorTva(19);
+
+	}
+
+}

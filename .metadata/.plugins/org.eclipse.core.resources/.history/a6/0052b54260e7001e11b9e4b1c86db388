@@ -1,0 +1,19 @@
+package curs6;
+
+//scriem un program care calculeaza TVA la o suma
+//TVA-ul poate avea multiple valori
+//vreau sa setez valoarea TVA-ului pe obiect
+//vreau sa afisez numarul total de calcule ale TVA-ului pe care le-am facut
+
+public class CalculatorTva {
+	
+	private double tvaDouble;
+	
+	public calculatorTva(int tva) {
+		this.tvaDouble = tva/100;
+		
+	}
+	
+	
+
+}
