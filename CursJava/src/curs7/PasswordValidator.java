@@ -70,10 +70,6 @@ public class PasswordValidator {
 		System.out.println("Parola valida!");
 		
 	}
-	
-	
-
-	
-	
+		
 
 }
