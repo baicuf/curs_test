@@ -1,0 +1,32 @@
+package Tema5;
+
+//Scriem un program care calculeaza suma cifrelor unui numar.
+//Numarul in primim de la tastatura.
+//
+//Ex; Daca user-ul introduce numarul : 334
+//Suma numerelor este 10
+
+import java.util.Scanner;
+
+public class SumaCifreNumar {
+
+	public static void main(String[] args) {
+
+		// Intrebam userul sa introduca un numar
+		// Transformam numarul intr-un array format din cifrele ce il alcatuiesc
+		// Dupa cum ne-ai spus la inceput, String reprezinta un array format din caracterele introduse. Int este vazut ca un numar
+		// Ar trebui sa transformam numarul in string, apoi putem sa luam fiecare cifra vazuta ca un caracter nenumeric si apoi sa o facem din nou numar
+		
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Introdu numarul :" );
+		String numar = scan.next();
+		char cifra = scan.next().charAt(0);
+		
+		System.out.println(numar);
+		System.out.println(cifra);
+		
+
+	}
+
+}
