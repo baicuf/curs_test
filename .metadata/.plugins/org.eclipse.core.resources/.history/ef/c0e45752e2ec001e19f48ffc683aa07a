@@ -6,7 +6,6 @@ public class Angajat {
 	
 	private String nume;
 	private String email;
-	private int angajatID;
 	
 	public String getNume() {
 		return nume;
@@ -19,12 +18,6 @@ public class Angajat {
 	}
 	public void setEmail(String email) {
 		this.email = email;
-	}
-	public int getAngajatID() {
-		return angajatID;
-	}
-	public void setAngajatID(int angajatID) {
-		this.angajatID = angajatID;
 	}
 	
 	
