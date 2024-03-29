@@ -1,0 +1,13 @@
+package curs8;
+
+public class TestMostenire {
+
+	public static void main(String[] args) {
+		
+		
+		TesterAutomat tester = new TesterAutomat();
+		tester.setProgramingLanguage("Java");
+
+	}
+
+}

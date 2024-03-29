@@ -1,0 +1,22 @@
+package curs8;
+
+import java.util.Scanner;
+
+//Facem un program care cere o litera si verifica daca este consoana sau vocala
+//Rezolvare cu switch
+//Citim litera de la tastatura
+
+public class IsCharVowel {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Te rog introdu o litera: ");
+		char litera = scan.next().charAt(0);
+		
+		//aeiouAEIOU
+		
+
+	}
+
+}

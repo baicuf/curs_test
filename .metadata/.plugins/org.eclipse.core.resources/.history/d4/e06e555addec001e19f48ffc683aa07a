@@ -1,0 +1,17 @@
+package curs8;
+
+public class TesterAutomat {
+	
+	private String programingLanguage;
+
+	public String getProgramingLanguage() {
+		return programingLanguage;
+	}
+
+	public void setProgramingLanguage(String programingLanguage) {
+		this.programingLanguage = programingLanguage;
+	}
+	
+	
+
+}

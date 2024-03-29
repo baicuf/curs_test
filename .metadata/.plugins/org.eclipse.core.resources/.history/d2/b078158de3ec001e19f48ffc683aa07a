@@ -1,0 +1,19 @@
+package curs8;
+
+public class Square extends Shape {
+	
+	
+
+	public Square(String culoare, String nume) {
+		super(culoare, nume);
+	}
+	
+	public Square() {
+		
+	}
+	public void printDetails() {
+		System.out.println("Numele este: " + nume);
+		System.out.println("Culoarea este: " + culoare);
+	}
+
+}
