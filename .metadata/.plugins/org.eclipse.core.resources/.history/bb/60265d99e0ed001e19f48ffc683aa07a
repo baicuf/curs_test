@@ -1,0 +1,19 @@
+package Tema7;
+
+//Scriem un program care verifica cate zile are o luna pe care o citim de la tastatura
+//Intrebam userul o luna si un an
+//Ex: userul cere februarie 2024 à printam 29 zile
+//Daca cere februarie 2023 à printam 28 de zile
+//Etc
+//Tratam toate lunile anului si conform exemplului de mai sus tratam si daca este sau nu an bisect 
+
+
+
+public class NumarZileLuna {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
