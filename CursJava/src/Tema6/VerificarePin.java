@@ -14,13 +14,14 @@ public class VerificarePin {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		scan.close();
 		
 		int pin = 2244;
 		int userPin;
 		int i =0;
 		
 		do {
-			System.out.println("Introdu pinul:");
+			System.out.println("Enter pin:");
 			userPin = scan.nextInt();
 			
 			if (userPin == pin) {

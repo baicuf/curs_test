@@ -1,0 +1,36 @@
+package curs8;
+
+import java.util.Scanner;
+
+//Intrebam un calificativ
+//In functie de raspund printam urmatoarele
+//A -> Felicitari!
+//B -> Destul de bine!
+//C -> Suficient!
+//D -> Insuficient!
+//Pentru orice alt calificativ, printam: Calificativ invalid!
+
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Introdu calificativ:");
+		String calificativ = scan.next().toUpperCase();
+		
+		//if-else
+		if(calificativ.equalsIgnoreCase("A")) {
+			System.out.println("Felicitari!");
+		}else if(calificativ.equals("B") || calificativ.equals("b")) {
+			System.out.println("Destul de bine!!");
+		}else if(calificativ.equals("C")) {
+			System.out.println("Suficient!");
+		}else if(calificativ.equals("D")) {
+			System.out.println("Insuficient!");
+		}else {
+			System.out.println("Calificativ invalid!");
+		}
+
+	}
+
+}

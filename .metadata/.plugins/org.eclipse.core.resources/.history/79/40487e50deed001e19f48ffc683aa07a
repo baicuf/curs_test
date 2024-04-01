@@ -1,0 +1,10 @@
+package Tema7;
+
+public class NumarZileLuna {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
