@@ -54,15 +54,15 @@ public class PropertiesFileProcessor {
 	//write properties file
 	public void updatePropertiesFile(key, String value){
 		
-		try(InputStream inputStream = new FileInputStream("test.properties")) {
-			
-			Properties propFile = new Properties();
-			propFile.load(inputStream);
-			
-		}catch(IOException e) {
-			System.out.println("Nu am putut citi fisierul!");
-			e.printStackTrace();
-		}
+//		try(InputStream inputStream = new FileInputStream("test.properties")) {
+//			
+//			Properties propFile = new Properties();
+//			propFile.load(inputStream);
+//			
+//		}catch(IOException e) {
+//			System.out.println("Nu am putut citi fisierul!");
+//			e.printStackTrace();
+//		}
 		
 		try(OutputStream outputStream = new FileOutputStream("test.properties")) {
 			
